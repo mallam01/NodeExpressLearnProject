@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <% include templates/header.ejs %>
+    <p>Welcome to <%= title %></p>
+
+  <b> Reading Value from JSON File : </b> <%= packagedata.name%> <br/>
+  <b> Reading Value from JSON File : </b> <%= packagedata.dependencies.ejs%>
+
+
+  </body>
+</html>
